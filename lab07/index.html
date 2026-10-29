@@ -26,7 +26,10 @@
 
         <main class="site-main">
             <figure class="hero">
-                <img src="images/owl-asleep.jpg" alt="A great horned owl: sleeping by day, wide awake by night">
+                <picture>
+                    <source srcset="images/owl-awake.jpg" media="(prefers-color-scheme: dark)">
+                    <img src="images/owl-asleep.jpg" alt="A great horned owl: sleeping by day, wide awake by night">
+                </picture>
                 <figcaption>
                     Shhh! Our owl keeps unusual hours.<br>
                     <small>Photos: <a href="https://commons.wikimedia.org/wiki/File:Owl_sleeping_in_tree.jpg">Kasia</a>
@@ -56,8 +59,7 @@
         </main>
 
         <footer class="site-footer">
-            <p class="credits">Built by: Brady Mohr</p>
-            <p class="credits">Built by: (Ephram Thompson)</p>
+            <p class="credits">Built by: Sam, Brady, Ephram</p>
         </footer>
     </div>
 </body>
